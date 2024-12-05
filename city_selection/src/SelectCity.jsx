@@ -153,18 +153,17 @@ const SelectCity = () => {
       </div>
 
       {/* Display Selected Location */}
-      {selectedLocation && (
-        <p
-          style={{
-            marginTop: "20px",
-            fontWeight: "bold",
-            fontSize: "20px",
-            whiteSpace: "nowrap",
-          }}
-        >
-          {city ? `You Selected ${city}, ${state}, ${country}` : ``}
-        </p>
-      )}
+
+      <p
+        style={{
+          marginTop: "20px",
+          fontWeight: "bold",
+          fontSize: "20px",
+          whiteSpace: "nowrap",
+        }}
+      >
+        {city ? `You Selected ${city}, ${state}, ${country}` : ``}
+      </p>
     </div>
   );
 };
