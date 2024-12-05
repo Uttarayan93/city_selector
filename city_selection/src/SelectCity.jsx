@@ -162,7 +162,7 @@ const SelectCity = () => {
             whiteSpace: "nowrap",
           }}
         >
-          {selectedLocation}
+          {city ? `You Selected ${city}, ${state}, ${country}` : ``}
         </p>
       )}
     </div>
